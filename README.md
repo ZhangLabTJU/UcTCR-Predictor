@@ -98,7 +98,7 @@ print(out.head())
 
 | **column** | **type** | **description** |
 | --- | --- | --- |
-| **Vgene** | string | The input V gene is expected to follow the standardized naming convention (e.g., TCRBV05-01). Valid V gene names are listed below for reference:[Human V genes](https://github.com/ZhangLabTJU/UcTCR-Predictor/blob/main/Reference_Human_V_Gene.csv), [Mouse V genes](https://github.com/ZhangLabTJU/UcTCR-Predictor/blob/main/Reference_Mouse_V_Gene.csv) |
+| **Vgene** | string | The input V gene is expected to follow the standardized naming convention (e.g., TCRBV05-01). Valid V gene names are listed below for reference: [Human V genes](https://github.com/ZhangLabTJU/UcTCR-Predictor/blob/main/Reference_Human_V_Gene.csv), [Mouse V genes](https://github.com/ZhangLabTJU/UcTCR-Predictor/blob/main/Reference_Mouse_V_Gene.csv). |
 | **cdr3aa** | string | For accurate analysis, the CDR3 amino-acid sequence is expected to start with “C” and end with “F”. |
 
 **Minimum example**
