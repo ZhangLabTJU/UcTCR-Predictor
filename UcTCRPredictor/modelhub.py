@@ -18,7 +18,7 @@ def ensure_model(species: str) -> Path:
     model_dir = Path(resources.files(f"UcTCRPredictor.species.{species}.models"))
     model_path = model_dir / "pytorch_model.bin"
     if model_path.exists():
-        return model_path
+        return model_dir
 
     model_dir.mkdir(parents=True, exist_ok=True)
     print(f"[UcTCR] downloading {_HF_FILES[species]} …")
@@ -34,7 +34,7 @@ def ensure_model(species: str) -> Path:
         cache_dir=None                  
     )
 
-    shutil.move(tmp_path, model_path)  # 用 copy2 保留 mtime；或用 shutil.move
+    shutil.copy2(tmp_path, model_path)  
 
     print(f"[UcTCR] saved → {model_path}")
-    return model_path
+    return model_dir
