@@ -54,10 +54,12 @@ pip install -e .        # dev-mode; use  "pip install ."  for prod
 
 ```
 # Human model
-uctcr --species human path/to/human_data.csv -o human_pred
+# uctcr --species human <input path> -o <output path>
+uctcr --species human tests/test_data_human.csv -o human_pred
 
 # Mouse model
-uctcr --species mouse path/to/mouse_data.csv -o mouse_pred
+# uctcr --species mouse <input path> -o <output path>
+uctcr --species mouse tests/test_data_mouse.csv -o mouse_pred
 ```
 
 *Output* – a tsv.gz containing all original columns **plus** the four probability columns.
@@ -70,7 +72,7 @@ from UcTCRPredictor.species.human import ucpredict_human
 # from UcTCRPredictor.species.mouse import ucpredict_mouse
 
 out = ucpredict_human(
-    "path/to/human_data.csv",
+    "tests/test_data_human.csv",   # input path
     batch_size=2048,               # optional (default 1024)
     save_path="human_pred"         # optional, auto adds .tsv.gz
 )
