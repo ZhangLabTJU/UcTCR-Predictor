@@ -77,7 +77,7 @@ print(out.head())
 
 ---
 
-> **Heads-up — model download on first run**
+:warning: **Heads-up — model download on first run**
 > 
 > 
 > The very first time you call `uctcr` (or `ucpredict_human / ucpredict_mouse`) the package will automatically fetch the frozen TCR-V-BERT backbone **from Hugging Face**:
