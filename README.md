@@ -27,7 +27,7 @@ conda create -n uctcr python=3.9 -y
 conda activate uctcr
 
 # ❷ clone & install
-git clone https://github.com/ZhangLabTJU/UcTCRPredictor.git
+git clone https://github.com/ZhangLabTJU/UcTCR-Predictor.git
 cd UcTCRPredictor
 pip install -e .        # dev-mode; use  "pip install ."  for prod
 ```
@@ -138,4 +138,4 @@ The frozen encoder feeds a shallow **2-layer feed-forward classifier**, yielding
 
 ---
 
-Issues & PRs are welcome → [GitHub Issues](https://github.com/ZhangLabTJU/UcTCRPredictor/issues)
+Issues & PRs are welcome → [GitHub Issues](https://github.com/ZhangLabTJU/UcTCR-Predictor/issues)
