@@ -15,7 +15,7 @@ The package supports **command-line** and **pure-Python** workflows and can proc
 
 ### **License**
 
-Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) (see License file). This software is not to be used for commercial purposes.
+Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) (see [License file](https://github.com/ZhangLabTJU/UcTCR-Predictor/blob/main/LICENSE)). This software is not to be used for commercial purposes.
 
 ---
 
