@@ -54,12 +54,12 @@ pip install -e .        # dev-mode; use  "pip install ."  for prod
 
 ```
 # Human model
-# uctcr --species human <input path> -o <output path>
-uctcr --species human tests/test_data_human.csv -o human_pred
+# uctcrp --species human <input path> -o <output path>
+uctcrp --species human tests/test_data_human.csv -o human_pred
 
 # Mouse model
-# uctcr --species mouse <input path> -o <output path>
-uctcr --species mouse tests/test_data_mouse.csv -o mouse_pred
+# uctcrp --species mouse <input path> -o <output path>
+uctcrp --species mouse tests/test_data_mouse.csv -o mouse_pred
 ```
 
 *Output* – a tsv.gz containing all original columns **plus** the four probability columns.
