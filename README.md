@@ -53,12 +53,13 @@ pip install -e .        # dev-mode; use  "pip install ."  for prod
 ### **2.1 CLI (recommended for large files)**
 
 ```
+# command: UcTCRPredictor or uctcrp
 # Human model
-# uctcrp --species human <input path> -o <output path>
+# uctcrp (or UcTCRPredictor) --species human <input path> -o <output path>
 uctcrp --species human tests/test_data_human.csv -o human_pred
 
 # Mouse model
-# uctcrp --species mouse <input path> -o <output path>
+# uctcrp (or UcTCRPredictor) --species mouse <input path> -o <output path>
 uctcrp --species mouse tests/test_data_mouse.csv -o mouse_pred
 ```
 
