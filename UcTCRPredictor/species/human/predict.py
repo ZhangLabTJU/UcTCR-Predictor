@@ -118,7 +118,7 @@ def _embed(cdrs: np.ndarray, vgenes: torch.Tensor) -> np.ndarray:
     max_len = int(_UTILS.min_power_greater_than(25, base=2)) 
     tok = get_aa_bert_tokenizer(max_len)
     emb = _UTILS.get_transformer_embeddings(
-        model_dir=MODEL_DIR /"human",
+        model_dir=MODEL_DIR,
         tok=tok, seqs=cdrs, vgene=vgenes, layers=[-4],
         method="mean", device=0, max_len=max_len
     )
