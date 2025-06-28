@@ -14,7 +14,7 @@ dependencies = [
 
 [project.scripts]
 UcTCRPredictor = "UcTCRPredictor.cli:_main"
-uctcr = "UcTCRPredictor.cli:_main"
+uctcrp = "UcTCRPredictor.cli:_main"
 
 [tool.setuptools]
 packages = [
