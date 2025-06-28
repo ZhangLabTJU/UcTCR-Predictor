@@ -65,7 +65,9 @@ uctcr --species mouse path/to/mouse_data.csv -o mouse_pred.tsv.gz
 ### **2.2 Python API**
 
 ```
-from UcTCRPredictor.species.human import ucpredict_human   # or ucpredict_mouse
+from UcTCRPredictor.species.human import ucpredict_human
+# or mouse:
+# from UcTCRPredictor.species.mouse import ucpredict_mouse
 
 out = ucpredict_human(
     "path/to/human_data.csv",
