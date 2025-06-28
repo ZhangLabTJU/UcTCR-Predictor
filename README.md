@@ -134,16 +134,7 @@ The frozen encoder feeds a shallow **2-layer feed-forward classifier**, yielding
 
 ### **6 Citation**
 
-If you use **UcTCRPredictor** in academic work, please cite:
 
-```
-@article{Your2025TCRBERT,
-  title   = {Encoding the unconventional: A TCR-V-BERT approach to rare T-cell subset discovery},
-  author  = {Your Name *et al.*},
-  journal = {BioRxiv},
-  year    = {2025}
-}
-```
 
 ---
 
