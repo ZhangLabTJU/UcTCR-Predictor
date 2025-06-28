@@ -28,7 +28,7 @@ conda activate uctcr
 
 # ❷ clone & install
 git clone https://github.com/ZhangLabTJU/UcTCR-Predictor.git
-cd UcTCRPredictor
+cd UcTCR-Predictor
 pip install -e .        # dev-mode; use  "pip install ."  for prod
 ```
 
