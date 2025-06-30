@@ -1,6 +1,6 @@
 ## **UcTCR-Predictor**
 
-The **Unconventional-TCR Predictor** is a lightweight Python package that wraps our pre-trained **TCR-V-BERT** models for **human** and **mouse** repertoires.
+UcTCR-Predictor is a lightweight and scalable Python package designed for rapid identification of unconventional αβ T cells from bulk TCRβ repertoire data.The core of the framework is TCR-V-BERT, a transformer-based model pretrained on large-scale unlabeled TCRβ sequences using a self-supervised masked language modeling strategy. This pretraining captures generalizable sequence features, which are then fine-tuned for multi-class classification of unconventional T cell subsets, including MAIT, iNKT, and CD8αα⁺ T cells. The two-stage design—unsupervised pretraining followed by supervised transfer—enables robust generalization across diverse datasets, tissue sources, and immune contexts. UcTCR-Predictor supports both  **human** and **mouse** repertoires, with species-specific models optimized for each organism. 
 
 It embeds each TCR-β chain (CDR3 AA + V gene) and assigns unconventional T-cell probabilities:
 
