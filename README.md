@@ -1,13 +1,13 @@
-## **UcTCRPredictor**
+## **UcTCR-Predictor**
 
 The **Unconventional-TCR Predictor** is a lightweight Python package that wraps our pre-trained **TCR-V-BERT** models for **human** and **mouse** repertoires.
 
 It embeds each TCR-β chain (CDR3 AA + V gene) and assigns unconventional T-cell probabilities:
 
-- MAIT
-- iNKT
-- CD8αα IELs
-- Conv (conventional CD4/CD8)
+- MAIT cells
+- iNKT cells
+- CD8αα+ T cells
+- Conv (conventional CD4/CD8) T cells
 
 The package supports **command-line** and **pure-Python** workflows and can process millions of sequences in a single run.
 
@@ -22,11 +22,11 @@ Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) (see [L
 ### **1 Installation**
 
 ```
-# ❶ create / activate your env (optional)
+# 1. create / activate your env (optional)
 conda create -n uctcr python=3.9 -y
 conda activate uctcr
 
-# ❷ clone & install
+# 2. clone & install
 git clone https://github.com/ZhangLabTJU/UcTCR-Predictor.git
 cd UcTCR-Predictor
 pip install -e .        # dev-mode; use  "pip install ."  for prod
@@ -122,8 +122,8 @@ TCRBV14-01,CASSPWGKTQYF
 | --- | --- |
 | Conv | conventional αβ-T-cell probability |
 | MAIT | mucosal-associated invariant T-cell prob. |
-| iNKT | invariant NKT-cell probability |
-| CD8αα IELs | intra-epithelial lymphocyte probability |
+| iNKT | invariant nature killer T-cell probability |
+| CD8αα+ | CD8αα+ innate T lymphocyte probability |
 
 Probabilities in each row sum to **1.0**.
 
