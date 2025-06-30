@@ -129,15 +129,7 @@ Probabilities in each row sum to **1.0**.
 
 ---
 
-### **5 Model overview**
-
-The **TCR-V-BERT** backbone jointly embeds **V-gene tokens** and **CDR3 amino-acid tokens**.
-
-The frozen encoder feeds a shallow **2-layer feed-forward classifier**, yielding class probabilities that closely match expert-curated annotations (AUROC ≈ 0.96 on held-out datasets).
-
----
-
-### **6 Citation**
+### **5 Citation**
 
 
 
