@@ -39,11 +39,7 @@ VGENE_LIST = pd.read_csv(MODEL_DIR / "HUMAN_V_Gene_list.csv")
 V_DICT = dict(VGENE_LIST.iloc[:, -2:].values)
 V_DICT.update({                 # The unconventional V gene
     'TRBV3-1':'TCRBV03-01', 
-    # 'TRBV20-1':'TCRBV20',
     'TRBV23-1':'TCRBV23',
-    # 'TRBV24-1': 'TCRBV24',
-    # 'TRBV25-1':'TCRBV25',
-    #'TRBV29-1':'TCRBV29',
     'TRBV12-3':'TCRBV12-03',
     'TRBV12-4':'TCRBV12-03',
     'TRBV6-2':'TCRBV06-02',
