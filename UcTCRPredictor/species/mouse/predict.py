@@ -27,7 +27,7 @@ from ...modelhub import ensure_model
 #MODEL_DIR  = get_model_dir("mouse")                 # .../species/mouse/models
 MODEL_DIR  = ensure_model("mouse")
 V_VOCAB    = np.load(MODEL_DIR / "v_vocab.npy", allow_pickle=True).tolist()
-MODEL_PATH = MODEL_DIR / "model_uni1.pt"
+MODEL_PATH = MODEL_DIR / "model_cls.pt"
 VG_MAP_TSV = MODEL_DIR / "MOUSE_Trbv_gene_map.tsv"
 
 # V gene map
