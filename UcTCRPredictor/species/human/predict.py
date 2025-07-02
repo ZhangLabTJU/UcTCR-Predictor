@@ -32,7 +32,7 @@ from ...modelhub import ensure_model
 #MODEL_DIR = get_model_dir("human")                   # .../species/human/models
 MODEL_DIR = ensure_model("human")
 V_VOCAB   = np.load(MODEL_DIR / "v_vocab.npy", allow_pickle=True).tolist()
-MODEL_PATH = MODEL_DIR / "fc_mulit_TCRBV_CF_du.pt"
+MODEL_PATH = MODEL_DIR / "human_cls.pt"
 VGENE_LIST = pd.read_csv(MODEL_DIR / "HUMAN_V_Gene_list.csv")      
 
 # V gene map
