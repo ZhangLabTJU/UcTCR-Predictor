@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "UcTCRPredictor"
+version = "1.0.0"
+description = "Unified preprocessing & prediction for immune TCR repertoire data"
+authors = [{name = "Linlin Chen, Jian Zhang", email = "jian_zhang@tju.edu.cn"}]
+requires-python = ">=3.8"
+dependencies = [
+    "pandas", "numpy", "torch", "transformers", "tqdm", "huggingface-hub", 
+]
+
+[project.scripts]
+UcTCRPredictor = "UcTCRPredictor.cli:_main"
+uctcrp = "UcTCRPredictor.cli:_main"
+
+[tool.setuptools]
+packages = [
+  "UcTCRPredictor",
+  "UcTCRPredictor.species",
+  "UcTCRPredictor.species.human",
+  "UcTCRPredictor.species.human.models",
+  "UcTCRPredictor.species.mouse",
+  "UcTCRPredictor.species.mouse.models",
+]
+
+[tool.setuptools.package-data]
+"UcTCRPredictor.species.human.models" = ["*"]
+"UcTCRPredictor.species.mouse.models" = ["*"]
