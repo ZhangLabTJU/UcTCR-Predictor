@@ -19,7 +19,7 @@ Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) (see [L
 ---
 
 ### **1 Installation**
-
+Note: If git is not installed on your machine, please install it before running git clone, or alternatively download the repository as a ZIP from GitHub and unzip it locally.
 ```
 # 1. create / activate your env (optional)
 conda create -n uctcr python=3.9 -y
