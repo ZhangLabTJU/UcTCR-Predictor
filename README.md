@@ -6,7 +6,7 @@ It embeds each TCR-β chain (CDR3 AA + V gene) and assigns unconventional T-cell
 
 - MAIT cells
 - iNKT cells
-- Conv (conventional CD4/CD8) T cells
+- Conv (conventional) T cells
 
 The package supports **command-line** and **pure-Python** workflows and can process millions of sequences in a single run.
 
@@ -62,7 +62,7 @@ uctcrp --species human tests/test_data_human.csv -o human_pred
 uctcrp --species mouse tests/test_data_mouse.csv -o mouse_pred
 ```
 
-*Output* – a tsv.gz containing all original columns **plus** the four probability columns.
+*Output* – a tsv.gz containing all original columns **plus** the three probability columns.
 
 ### **2.2 Python API**
 
