@@ -18,7 +18,7 @@ Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) (see [L
 
 ---
 
-### **1 Installation**
+### **1. Installation**
 ```
 # 1. create / activate your env (optional)
 conda create -n uctcr python=3.9 -y
@@ -47,7 +47,7 @@ Note: If git is not installed on your machine, please install it before running 
 
 ---
 
-### **2 Quick usage**
+### **2. Quick usage**
 
 ### **2.1 CLI (recommended for large files)**
 
@@ -96,7 +96,7 @@ print(out.head())
 > Make sure your machine can reach `huggingface.co` (HTTP 443) during that first execution.
 > 
 
-### **3 Input-file format**
+### **3. Input-file format**
 
 | **column** | **type** | **description** |
 | --- | --- | --- |
@@ -115,7 +115,7 @@ TCRBV14-01,CASSPWGKTQYF
 
 ---
 
-### **4 Output columns**
+### **4. Output columns**
 
 | **new column** | **description** |
 | --- | --- |
@@ -127,7 +127,7 @@ Probabilities in each row sum to **1.0**.
 
 ---
 
-### **5 Citation**
+### **5. Citation**
 
 
 
