@@ -119,9 +119,9 @@ TCRBV14-01,CASSPWGKTQYF
 
 | **new column** | **description** |
 | --- | --- |
-| Conv | conventional αβ-T-cell probability |
-| MAIT | mucosal-associated invariant T-cell prob. |
-| iNKT | invariant nature killer T-cell probability |
+| Conv | Conventional αβ-T-cell probability |
+| MAIT | Mucosal-associated invariant T-cell probability |
+| iNKT | Invariant nature killer T-cell probability |
 
 Probabilities in each row sum to **1.0**.
 
