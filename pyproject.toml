@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "UcTCRPredictor"
 version = "1.0.0"
-description = "Unified preprocessing & prediction for immune TCR repertoire data"
+description = "A lightweight and scalable Python package designed for rapid identification of unconventional αβ T cells from bulk TCRβ repertoire data. "
 authors = [{name = "Linlin Chen, Jian Zhang", email = "jian_zhang@tju.edu.cn"}]
 requires-python = ">=3.8"
 dependencies = [
